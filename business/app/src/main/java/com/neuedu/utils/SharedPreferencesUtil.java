@@ -3,6 +3,8 @@ package com.neuedu.utils;
 import android.content.Context;
 import android.content.SharedPreferences;
 
+
+
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -35,6 +37,7 @@ public class SharedPreferencesUtil {
     public  void  putBoolean(String key,boolean value){
         editor.putBoolean(key, value);
         editor.commit();
+
     }
     public  void  putString(String key,String value){
         editor.putString(key, value);
