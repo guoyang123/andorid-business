@@ -4,11 +4,34 @@
     android:layout_height="match_parent">
 
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:text="home"></TextView>
+
+     <RelativeLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+
+         <androidx.viewpager.widget.ViewPager
+             android:id="@+id/casouelviewpager"
+             android:layout_width="match_parent"
+             android:layout_height="100dp">
+
+         </androidx.viewpager.widget.ViewPager>
+
+          <LinearLayout
+              android:id="@+id/casouelnav"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignBottom="@id/casouelviewpager"
+              android:layout_marginBottom="10dp"
+              android:orientation="horizontal">
+
+          </LinearLayout>
+
+
+     </RelativeLayout>
+
+
+
+
 
 
 
